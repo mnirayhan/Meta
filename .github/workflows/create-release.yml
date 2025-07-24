@@ -69,9 +69,9 @@ jobs:
             --ks "$RUNNER_TEMP/keystores/keystore.jks" \
             --ks-key-alias "${{ secrets.KEY_ALIAS }}" \
             --ks-pass pass:${{ secrets.KEYSTORE_PASSWORD }} \
-            --key-pass pass:${{ secrets.KEY_PASSWORD }}" \
+            --key-pass pass:${{ secrets.KEY_PASSWORD }} \
             app-release.apk
-            
+
       - name: Clean Up Keystore
         if: always()
         run: |
