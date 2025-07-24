@@ -8,9 +8,6 @@
     * Provides quicker access to messages.
     * Not optimized for mobile devices!
 * Feature: Extends support down to Android 5.1. 0f49051e57672449847433065cd9086729371a63
-  * Bengali by @qomarhsn (#83)
-  * Portuguese by @marciozomb13 (#88)
-  * The rest were added using AI. 3a350375b48c68b6d9ecacedbeeb693ea026649f
 * Feature: MetaPipe menu follows the facebook theme. 55fdd2a868b3052acd30a0ac7cfa1998cd8d661e
 * Fix: Reduced screen resize lag when toggling the soft keyboard. 5ba6a1966c3f41ce4f7bad7c7c389573569bd033
 * Many other fixes and enhancements.
