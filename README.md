@@ -1,9 +1,9 @@
 # Meta
 <p align="center">
-  <img src='images/nobook_github_cover.png' height='200' alt="nobook_cover">
+  <img src='images/meta-cover-dark.png' height='200' alt="meta_cover">
 </p>
 
-<div align="center">Meta is a lightweight Android application to browse facebook.</div>
+<div align="center">Meta is a lightweight Android application to browse facebook (Facebook Lite Alternative).</div>
 
 ## • Features
 
