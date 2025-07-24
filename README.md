@@ -5,7 +5,7 @@
 </p>
 
 <div align="center">
-  <strong>MetaPipe</strong> &copy; {{YEAR}} — A lightweight Android application for seamless Facebook access.<br>
+  <strong>MetaPipe</strong> &copy; 2025 — A lightweight Android application for seamless Facebook access.<br>
   An efficient, privacy-conscious alternative to Facebook Lite.
 </div>
 
