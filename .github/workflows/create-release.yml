@@ -1,4 +1,4 @@
-name: Create Release
+name: Create Meta Release
 
 on:
   push:
