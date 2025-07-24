@@ -1,7 +1,7 @@
 # MetaPipe
 
 <p align="center">
-  <img src="images/MetaPipe-cover-dark.png" height="800" alt="MetaPipe Cover Image">
+  <img src="images/metapipe-cover-dark.png" height="800" alt="MetaPipe Cover Image">
 </p>
 
 <div align="center">
