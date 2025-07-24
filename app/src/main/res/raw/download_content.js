@@ -14,7 +14,7 @@
   let isProcessing = false;
   let currentContentContainer = null;
   let lastDownloadedUrl = null;
-  const DOWNLOAD_BTN_ID = "meta-global-downloader";
+  const DOWNLOAD_BTN_ID = "MetaPipe-global-downloader";
 
   // Selectors for finding media content
   const SELECTORS = {

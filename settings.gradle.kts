@@ -19,5 +19,5 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "Meta"
+rootProject.name = "MetaPipe"
 include(":app")

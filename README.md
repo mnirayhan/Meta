@@ -1,48 +1,31 @@
-# Meta
+# MetaPipe
+
 <p align="center">
-  <img src='images/meta-cover-dark.png' height='200' alt="meta_cover">
+  <img src="images/MetaPipe-cover-dark.png" height="800" alt="MetaPipe Cover Image">
 </p>
 
-<div align="center">Meta is a lightweight Android application to browse facebook (Facebook Lite Alternative).</div>
+<div align="center">
+  <strong>MetaPipe</strong> &copy; {{YEAR}} — A lightweight Android application for seamless Facebook access.<br>
+  An efficient, privacy-conscious alternative to Facebook Lite.
+</div>
 
-## • Features
+---
 
-*  Blocks sponsored ads.
-*  Blocks suggested posts.
-*  Downloads media.
-* And more.
+## 🚀 Features
 
-## • Installation
+- ✅ Blocks sponsored content and in-feed ads
+- ✅ Hides suggested posts for a cleaner feed
+- ✅ Enables media downloads (images, videos, etc.)
+- ✅ Lightweight and performance-optimized
+- ✅ Simple, user-friendly interface
+- ✅ Actively maintained and open to contributions
 
-[<img src='images/get-it-on-github.png' alt='Get it on GitHub' height = "90">](https://github.com/mnirayhan/Meta/releases/latest)
+---
 
-## • Setup
+## 📱 About
 
-1.  **Clone the repository**
-    * In Android Studio:
-      * File > New > Project from Version Control
-      * Paste `https://github.com/mnirayhan/Meta.git` and clone.
-    * Or via terminal:
-    ```
-    git clone https://github.com/mnirayhan/Meta.git
-    cd Meta
-    ```
-2.  **Open in Android Studio.** (only if cloned via terminal)
-    * Select Open an Existing Project and choose the cloned folder.
-3. **Sync the project** to download dependencies.
-4. **Run the app** in a device or emulator.
+MetaPipe is built to deliver a clean, efficient, and distraction-free Facebook browsing experience. By stripping away unnecessary clutter and optimizing performance, it offers users a focused interface for consuming content, free from ads and suggested content.
 
+---
 
-## • Contributing
-
-Contributions to the project are welcome. Please follow these guidelines:
-
-1.  Fork the repository.
-2.  Create a new branch for your feature or bug fix.
-3.  Submit a pull request with a clear description of your changes.
-
-## Acknowledgement :
-> [!NOTE]
-> [@KevinnZou/compose-webview-multiplatform](https://github.com/KevinnZou/compose-webview-multiplatform)  is at the core of this project.
-> Developing Meta would have been much harder and time-consuming without it.
-> If you like our app, please consider supporting that project as well.
+> ℹ️ This application is an independent project and is not affiliated with or endorsed by MetaPipe Platforms, Inc.

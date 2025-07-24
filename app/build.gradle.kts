@@ -5,11 +5,11 @@ plugins {
 }
 
 android {
-    namespace = "com.mnirayhan.meta"
+    namespace = "com.mnirayhan.metapipe"
     compileSdk = 35
 
     defaultConfig {
-        applicationId = "com.mnirayhan.meta"
+        applicationId = "com.mnirayhan.metapipe"
         minSdk = 22
         targetSdk = 35
         versionCode = 10

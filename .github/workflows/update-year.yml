@@ -1,0 +1,31 @@
+name: Auto Update Year in README
+
+on:
+  schedule:
+    - cron: '0 0 1 1 *'  # Every January 1st at 00:00 UTC
+  workflow_dispatch:     # Allows manual trigger from GitHub UI
+
+jobs:
+  update-readme:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Replace {{YEAR}} with Current Year
+        run: |
+          CURRENT_YEAR=$(date +'%Y')
+          sed -i "s/{{YEAR}}/${CURRENT_YEAR}/g" README.md
+
+      - name: Commit and Push if Changed
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git add README.md
+          if git diff --cached --quiet; then
+            echo "No changes to commit"
+          else
+            git commit -m "chore: update year in README.md to ${CURRENT_YEAR}"
+            git push
+          fi

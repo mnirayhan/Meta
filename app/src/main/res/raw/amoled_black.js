@@ -7,9 +7,9 @@
   }
 
   function processStyles() {
-    const meta = document.querySelector('meta[name="theme-color"]');
-    if (meta?.getAttribute('content')?.toLowerCase().trim() !== '#242526') return;
-    meta?.setAttribute('content', '#000000');
+    const MetaPipe = document.querySelector('MetaPipe[name="theme-color"]');
+    if (MetaPipe?.getAttribute('content')?.toLowerCase().trim() !== '#242526') return;
+    MetaPipe?.setAttribute('content', '#000000');
 
     document.querySelectorAll('style').forEach(style => {
       if (style.sheet?.cssRules) {
@@ -62,10 +62,10 @@
     if (mutations.some(m =>
       (m.type === 'childList' && Array.from(m.addedNodes).some(n =>
         n.tagName === 'STYLE' || (n.nodeType === 1 && n.hasAttribute('style')) ||
-        (n.tagName === 'META' && n.getAttribute('name') === 'theme-color'))) ||
+        (n.tagName === 'MetaPipe' && n.getAttribute('name') === 'theme-color'))) ||
       (m.type === 'characterData' && m.target.parentNode?.tagName === 'STYLE') ||
       (m.type === 'attributes' && (m.attributeName === 'style' ||
-        (m.target.tagName === 'META' && m.attributeName === 'content'))))
+        (m.target.tagName === 'MetaPipe' && m.attributeName === 'content'))))
     ) processStyles();
   }).observe(document.documentElement, {
     childList: true,

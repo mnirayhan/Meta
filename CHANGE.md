@@ -1,4 +1,4 @@
-## Meta - v0.1.0
+## MetaPipe - v0.1.0
 
 <ins>**Changelog:**</ins>
 
@@ -13,11 +13,11 @@
   * Bengali by @qomarhsn (#83)
   * Portuguese by @marciozomb13 (#88)
   * The rest were added using AI. 3a350375b48c68b6d9ecacedbeeb693ea026649f
-* Feature: Meta menu follows the facebook theme. 55fdd2a868b3052acd30a0ac7cfa1998cd8d661e
+* Feature: MetaPipe menu follows the facebook theme. 55fdd2a868b3052acd30a0ac7cfa1998cd8d661e
 * Fix: Reduced screen resize lag when toggling the soft keyboard. 5ba6a1966c3f41ce4f7bad7c7c389573569bd033
 * Many other fixes and enhancements.
 
-**Full changelog:** [v0.0.9...v0.1.0](https://github.com/mnirayhan/Meta/compare/v0.0.9...v0.1.0)
+**Full changelog:** [v0.0.9...v0.1.0](https://github.com/mnirayhan/MetaPipe/compare/v0.0.9...v0.1.0)
 
 >[!IMPORTANT]
 > Please expect less frequent releases from this update onward.

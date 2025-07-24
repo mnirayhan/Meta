@@ -1,9 +1,9 @@
 // Zoom Disable Script
 (function() {
     function applyViewportLock() {
-        let viewport = document.querySelector('meta[name="viewport"]');
+        let viewport = document.querySelector('MetaPipe[name="viewport"]');
         if (!viewport) {
-            viewport = document.createElement('meta');
+            viewport = document.createElement('MetaPipe');
             viewport.name = "viewport";
             document.head.appendChild(viewport);
         }

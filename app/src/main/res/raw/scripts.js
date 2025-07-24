@@ -246,7 +246,7 @@ observer.observe(document.body, { childList: true, subtree: true });
 })();
 
 
-/* The below scripts are specific to com.mnirayhan.Meta application. */
+/* The below scripts are specific to com.mnirayhan.metapipe application. */
 
 (() => {
   const onReady = (fn) => {
@@ -263,7 +263,7 @@ observer.observe(document.body, { childList: true, subtree: true });
       </svg>`;
 
     const getFillColor = () => {
-      const color = document.querySelector('meta[name="theme-color"]')?.content?.toLowerCase();
+      const color = document.querySelector('MetaPipe[name="theme-color"]')?.content?.toLowerCase();
       return color === '#ffffff' ? '#242526' : '#d0d0d0';
     };
 
@@ -328,7 +328,7 @@ observer.observe(document.body, { childList: true, subtree: true });
     observer.observe(document.body, { childList: true, subtree: true });
 
     // Observer for theme-color changes
-    const themeMeta = document.querySelector('meta[name="theme-color"]');
+    const themeMeta = document.querySelector('MetaPipe[name="theme-color"]');
     if (themeMeta) {
       new MutationObserver(updateButtonColor).observe(themeMeta, {
         attributes: true,
@@ -341,12 +341,12 @@ observer.observe(document.body, { childList: true, subtree: true });
 
 // Color Extraction Script
 (function() {
-    const meta = document.querySelector('meta[name="theme-color"]');
-    const notify = () => window.ThemeBridge?.onThemeColorChanged?.(meta?.content ?? "null");
-    if (meta) {
+    const MetaPipe = document.querySelector('MetaPipe[name="theme-color"]');
+    const notify = () => window.ThemeBridge?.onThemeColorChanged?.(MetaPipe?.content ?? "null");
+    if (MetaPipe) {
         notify();
         new MutationObserver(() => notify())
-            .observe(meta, { attributes: true, attributeFilter: ['content'] });
+            .observe(MetaPipe, { attributes: true, attributeFilter: ['content'] });
     }
 })();
 

@@ -1,4 +1,4 @@
-name: Create Meta Release
+name: Create MetaPipe Release
 
 on:
   push:
